@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: snails-flowable
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://175.178.126.90:18848
+        namespace: 4c523f55-ea0c-44cd-b365-a94e6a913c58
+      config:
+        server-addr: http://175.178.126.90:18848
+        group: DEFAULT_GROUP
+        prefix: snails-flowable
+        file-extension: yaml
+        namespace: 4c523f55-ea0c-44cd-b365-a94e6a913c58
+#logging:
+#  level:
+#    com:
+#      alibaba:
+#        cloud:
+#          nacos:
+#            client:
+#              NacosPropertySourceBuilder: error
